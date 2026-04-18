@@ -16,8 +16,6 @@ The project is organized as follows:
     * `explosive_sample.xml`: The recursive payload designed for exponential growth.
     * `safe_sample.xml`: A standard, non-malicious XML file for baseline testing.
 * **`requirements.txt`**: Lists necessary dependencies (e.g., `defusedxml`).
-* **`.gitignore`**: Configured to ignore virtual environments and cached files.
-* **`LICENSE`**: MIT License.
 
 ## ⚡ The Science of the "Bomb"
 The attack leverages the **Document Type Definition (DTD)** to define entities that refer to one another. 
